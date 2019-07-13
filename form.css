@@ -1,0 +1,66 @@
+
+.flex-containerbg {
+  
+  display: flex;
+  justify-content:space-between;
+  
+  flex-direction:row;
+  background-color: white;
+}
+.flex-left{
+ 
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-column-gap:1em;
+  grid-auto-rows:minmax(150px,auto);
+  background-color: LightGray;
+}
+.flex-billing{
+ 
+  margin-left:20px;
+ margin-right:20px;
+  
+  display: grid;
+ 
+ 
+  
+}
+
+
+.width{width:100%;}
+.leftmin{
+  
+  
+  
+  display: flex;
+ 
+  flex-direction:row;
+
+}
+.form{
+  grid-column:1/4;
+}
+.button{background-color:black;
+width:100%;
+color:white;
+  text-align:center;
+  font-weight:bold;
+padding:20px;
+}
+
+.flex-container {
+ flex-basis:30%;
+  display: flex;
+flex-flow:row wrap;
+  background-color: LightGray;
+}
+
+.flex-container > div {
+  background-color: lightgray;
+  width:200px;
+  margin: 15px;
+  text-align: left;
+  line-height: 35px;
+  font-size: 30px;
+}
+
